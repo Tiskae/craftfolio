@@ -1,0 +1,15 @@
+@function pxToRem($pxValue) {
+  @return ($pxValue / 16) * 1rem;
+}
+
+@mixin centerFlexItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin centerGridItems {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
