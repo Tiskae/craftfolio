@@ -1,0 +1,24 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //   background: url("https://framerusercontent.com/images/rR6HYXBrMmX4cRpXfXUOvpvpB0.png");
+  background-color: $color-background;
+  padding: 10px 40px 0;
+  margin: 0;
+
+  &__links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+
+    img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}
