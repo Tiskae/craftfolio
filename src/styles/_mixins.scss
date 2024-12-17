@@ -13,3 +13,11 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin gradientText {
+  background: linear-gradient(to right, #000, #777);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}

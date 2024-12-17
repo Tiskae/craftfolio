@@ -1,0 +1,54 @@
+@import "../../../styles/mixins";
+@import "../../../styles/variables";
+
+.skills {
+  padding: 50px 40px 50px;
+  @include centerGridItems;
+  gap: 30px;
+  text-align: center;
+  background-color: #fff;
+  background-color: #fff;
+
+  &__heading {
+    @include gradientText;
+  }
+
+  &__list {
+    display: flex;
+    // flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    // overflow: hidden;
+    border-bottom-right-radius: 20px;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+}
+
+.skillbox {
+  padding: 35px;
+  @include centerFlexItems;
+  @include gradientText;
+  background-image: linear-gradient(to right, #000, #c7c7c7);
+  //   border: 2px solid #000;
+  //   clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 100%);
+  &__text {
+    font-size: 25px;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
