@@ -3,6 +3,9 @@
 .educations {
   padding: 50px 40px;
   background-color: $color-background;
+  display: grid;
+  gap: 30px;
+  justify-content: center;
 
   h2 {
     text-align: center;
