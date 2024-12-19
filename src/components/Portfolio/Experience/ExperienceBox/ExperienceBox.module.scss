@@ -1,0 +1,53 @@
+@import "../../../../styles/variables";
+
+.experiencebox {
+  max-width: 400px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  //   background-color: beige;
+  //   background-color: $color-background;
+
+  &__icon {
+    transform: translateY(-3.5px);
+    // background-color: $color-background;
+    border: 2px solid $color-background;
+    padding: 5px;
+    // border-radius: 3px;
+
+    path {
+      fill: $color-background;
+    }
+  }
+
+  &__content {
+    display: grid;
+    gap: 5px;
+    color: #000000e6;
+  }
+}
+
+.experience {
+  &__jobtitle {
+  }
+
+  &__company {
+  }
+
+  &__date,
+  &__location {
+    color: #00000099;
+  }
+
+  &__desc {
+    margin: 10px 0;
+  }
+
+  &__skills {
+    color: #00000099;
+
+    strong {
+      color: #000000e6;
+    }
+  }
+}

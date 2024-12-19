@@ -1,0 +1,17 @@
+.experience {
+  padding: 70px 40px;
+  display: grid;
+  gap: 50px;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
