@@ -1,7 +1,7 @@
 import styles from "./Hero.module.scss";
 import Image from "next/image";
 // import IconUser from "../../../../public/icons/user.svg";
-import Button from "../UI/Button/Button";
+import Button from "../../UI/Button/Button";
 import clsx from "clsx";
 
 function Hero() {
