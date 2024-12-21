@@ -1,0 +1,16 @@
+@import "../../../styles/mixins";
+
+.footer {
+  @include centerFlexItems;
+  padding: 30px 40px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  transform: translateY(-75px);
+  background-color: #fff;
+
+  &__text {
+    a {
+      color: #000;
+    }
+  }
+}

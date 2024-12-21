@@ -9,6 +9,8 @@
   border-bottom-right-radius: 100px;
   border-bottom-left-radius: 100px;
   //   box-shadow: $shadow-1;
+  display: grid;
+  justify-content: center;
 
   &__imgcontainer {
     position: relative;
